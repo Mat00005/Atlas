@@ -1,0 +1,150 @@
+.header {
+  background-color: var(
+    --color-bg
+  ); /* au lieu de "background-color: #bcbfc3;" */
+}
+
+.card-greec {
+  display: flex;
+  width: 178.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #279ef8);
+  background: var(--Background, #fff);
+}
+
+.card-egypt {
+  display: flex;
+  width: 178.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--Yellow, #f8af27);
+  background: var(--Background, #fff);
+}
+
+.card-nordic {
+  display: flex;
+  width: 178.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--Green, #12965d);
+  background: var(--Background, #fff);
+}
+
+.card-romain {
+  display: flex;
+  width: 178.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--Red, #f82727);
+  background: var(--Background, #fff);
+}
+
+.up-card {
+  display: flex;
+  height: 216px;
+  padding: 12px 0;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.down-card {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.header {
+  display: flex;
+  width: 393px;
+  height: 89px;
+  padding: 20px 12px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--Background-components, #bcbfc3);
+}
+
+.logo {
+  color: var(--Text-secondary, #000);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subtitle {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.informations-case {
+  display: flex;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid var(--Text-main, #515050);
+}
+
+.informations-case-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.informations-case-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.popular-greec {
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--Blue, #279ef8);
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  width: 393px;
+  padding: 20px 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background: var(--Background-components, #bcbfc3);
+}
