@@ -32,3 +32,14 @@ html[data-theme="light"] #light-mode-btn {
 html[data-theme="dark"] #dark-mode-btn {
   display: none;
 }
+
+body {
+  padding: 12px;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  font-family: "Bubbler One", sans-serif;
+}
