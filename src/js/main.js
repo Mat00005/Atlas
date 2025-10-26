@@ -17,8 +17,8 @@ toggleLightModeBtn.addEventListener("click", function () {
   document.querySelector("html").setAttribute("data-theme", "light");
 });
 
-var burger = document.querySelector(".site-nav__burger");
-var menu = document.querySelector(".site-nav__menu");
+var burger = document.querySelector(".header_burger");
+var menu = document.querySelector(".header_menu");
 
 var toggleMenu = function toggleMenu() {
   menu.classList.toggle("is-active");

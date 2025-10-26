@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+body {
+  background: var(--color-bg);
+}
+img,
+video {
+  display: block;
+  position: relative;
+  max-width: 305px;
+  max-height: 216px;
+  overflow: hidden;
+}
+
+html[data-theme="dark"] {
+  --color-bg: #515050;
+  --color-text-main: #f7f6f6;
+  --color-text-secondary: #f7f6f6;
+  --color-blue: #a3d7ff;
+  --color-yellow: #f7f43e;
+  --color-red: #f8a7a7;
+  --color-green: #76e5b5;
+  --color-bghf: #696a6c;
+}
+
+html[data-theme="light"] {
+  --color-bg: rgb(255, 255, 255);
+  --color-text-main: #515050;
+  --color-text-secondary: #000000;
+  --color-blue: #279ef8;
+  --color-yellow: #f8af27;
+  --color-red: #f82727;
+  --color-green: #12965d;
+  --color-bghf: #bcbfc3;
+}
+
+html[data-theme="light"] #light-mode-btn {
+  display: none;
+}
+
+html[data-theme="dark"] #dark-mode-btn {
+  display: none;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /*
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);*/
+}
+
+h4 {
+  color: var(--color-text-main);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h5 {
+  color: var(--color-text-main);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
