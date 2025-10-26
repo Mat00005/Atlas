@@ -229,7 +229,7 @@ ul li::marker {
 }
 
 @media (max-width: 800px) {
-  .liens ul li {
+  .links ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,7 +240,7 @@ ul li::marker {
 }
 
 @media (max-width: 800px) {
-  .forflex {
+  .flex {
     flex-direction: column;
     align-items: flex-start; /* ou center si tu veux centré */
     gap: 20px;
@@ -280,4 +280,64 @@ li:hover {
 }
 .god_of_the_day_CTA p:hover {
   transform: scale(1);
+}
+
+.god_of_the_day h2 {
+  color: var(--color-text-main);
+  font-family: "Caesar Dressing";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.god_of_the_day h3 {
+  color: var(--color-text-main);
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.god_of_the_day p {
+  color: var(--color-text-main);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.god_of_the_day a {
+  color: var(--color-text-main);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: 17.5%; /* 3.5px */
+  text-underline-position: from-font;
+}
+
+.god_of_the_day_CTA {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.god_of_the_day_cards {
+  display: flex;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  border: 2px solid var(--color-text-main);
 }
